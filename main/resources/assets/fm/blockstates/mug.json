@@ -1,0 +1,8 @@
+{
+"variants": {
+"facing=north": {"model": "fm:mug", "y": 270},
+"facing=south": { "model": "fm:mug", "y": 90},
+"facing=east": { "model": "fm:mug"},
+"facing=west": { "model": "fm:mug", "y": 180}
+}
+}

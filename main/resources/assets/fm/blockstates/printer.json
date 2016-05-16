@@ -1,0 +1,8 @@
+{
+"variants": {
+"facing=north": {"model": "fm:printer", "y": 270},
+"facing=south": { "model": "fm:printer", "y": 90},
+"facing=east": { "model": "fm:printer"},
+"facing=west": { "model": "fm:printer", "y": 180}
+}
+}

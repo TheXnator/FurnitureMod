@@ -1,0 +1,323 @@
+{
+    "variants": {
+        "colour=0,facing=north,occupied=true,part=head": {"model": "fm:bed_head__white"},
+        "colour=0,facing=east,occupied=true,part=head": {"model": "fm:bed_head__white", "y": 180 },
+        "colour=0,facing=south,occupied=true,part=head": {"model": "fm:bed_head__white", "y": 90},
+        "colour=0,facing=west,occupied=true,part=head": {"model": "fm:bed_head__white", "y": 270},
+
+        "colour=1,facing=north,occupied=true,part=head": {"model": "fm:bed_head__orange"},
+        "colour=1,facing=east,occupied=true,part=head": {"model": "fm:bed_head__orange", "y": 180 },
+        "colour=1,facing=south,occupied=true,part=head": {"model": "fm:bed_head__orange", "y": 90},
+        "colour=1,facing=west,occupied=true,part=head": {"model": "fm:bed_head__orange", "y": 270},
+
+        "colour=2,facing=north,occupied=true,part=head": {"model": "fm:bed_head__magenta"},
+        "colour=2,facing=east,occupied=true,part=head": {"model": "fm:bed_head__magenta", "y": 180 },
+        "colour=2,facing=south,occupied=true,part=head": {"model": "fm:bed_head__magenta", "y": 90},
+        "colour=2,facing=west,occupied=true,part=head": {"model": "fm:bed_head__magenta", "y": 270},
+
+        "colour=3,facing=north,occupied=true,part=head": {"model": "fm:bed_head__light_blue"},
+        "colour=3,facing=east,occupied=true,part=head": {"model": "fm:bed_head__light_blue", "y": 180 },
+        "colour=3,facing=south,occupied=true,part=head": {"model": "fm:bed_head__light_blue", "y": 90},
+        "colour=3,facing=west,occupied=true,part=head": {"model": "fm:bed_head__light_blue", "y": 270},
+
+        "colour=4,facing=north,occupied=true,part=head": {"model": "fm:bed_head__yellow"},
+        "colour=4,facing=east,occupied=true,part=head": {"model": "fm:bed_head__yellow", "y": 180 },
+        "colour=4,facing=south,occupied=true,part=head": {"model": "fm:bed_head__yellow", "y": 90},
+        "colour=4,facing=west,occupied=true,part=head": {"model": "fm:bed_head__yellow", "y": 270},
+
+        "colour=5,facing=north,occupied=true,part=head": {"model": "fm:bed_head__lime"},
+        "colour=5,facing=east,occupied=true,part=head": {"model": "fm:bed_head__lime", "y": 180 },
+        "colour=5,facing=south,occupied=true,part=head": {"model": "fm:bed_head__lime", "y": 90},
+        "colour=5,facing=west,occupied=true,part=head": {"model": "fm:bed_head__lime", "y": 270},
+
+        "colour=6,facing=north,occupied=true,part=head": {"model": "fm:bed_head__pink"},
+        "colour=6,facing=east,occupied=true,part=head": {"model": "fm:bed_head__pink", "y": 180 },
+        "colour=6,facing=south,occupied=true,part=head": {"model": "fm:bed_head__pink", "y": 90},
+        "colour=6,facing=west,occupied=true,part=head": {"model": "fm:bed_head__pink", "y": 270},
+
+        "colour=7,facing=north,occupied=true,part=head": {"model": "fm:bed_head__grey"},
+        "colour=7,facing=east,occupied=true,part=head": {"model": "fm:bed_head__grey", "y": 180 },
+        "colour=7,facing=south,occupied=true,part=head": {"model": "fm:bed_head__grey", "y": 90},
+        "colour=7,facing=west,occupied=true,part=head": {"model": "fm:bed_head__grey", "y": 270},
+
+        "colour=8,facing=north,occupied=true,part=head": {"model": "fm:bed_head_light_grey"},
+        "colour=8,facing=east,occupied=true,part=head": {"model": "fm:bed_head_light_grey", "y": 180 },
+        "colour=8,facing=south,occupied=true,part=head": {"model": "fm:bed_head_light_grey", "y": 90},
+        "colour=8,facing=west,occupied=true,part=head": {"model": "fm:bed_head_light_grey", "y": 270},
+
+        "colour=9,facing=north,occupied=true,part=head": {"model": "fm:bed_head__cyan"},
+        "colour=9,facing=east,occupied=true,part=head": {"model": "fm:bed_head__cyan", "y": 180 },
+        "colour=9,facing=south,occupied=true,part=head": {"model": "fm:bed_head__cyan", "y": 90},
+        "colour=9,facing=west,occupied=true,part=head": {"model": "fm:bed_head__cyan", "y": 270},
+
+        "colour=10,facing=north,occupied=true,part=head": {"model": "fm:bed_head__purple"},
+        "colour=10,facing=east,occupied=true,part=head": {"model": "fm:bed_head__purple", "y": 180 },
+        "colour=10,facing=south,occupied=true,part=head": {"model": "fm:bed_head__purple", "y": 90},
+        "colour=10,facing=west,occupied=true,part=head": {"model": "fm:bed_head__purple", "y": 270},
+
+        "colour=11,facing=north,occupied=true,part=head": {"model": "fm:bed_head__blue"},
+        "colour=11,facing=east,occupied=true,part=head": {"model": "fm:bed_head__blue", "y": 180 },
+        "colour=11,facing=south,occupied=true,part=head": {"model": "fm:bed_head__blue", "y": 90},
+        "colour=11,facing=west,occupied=true,part=head": {"model": "fm:bed_head__blue", "y": 270},
+
+        "colour=12,facing=north,occupied=true,part=head": {"model": "fm:bed_head__brown"},
+        "colour=12,facing=east,occupied=true,part=head": {"model": "fm:bed_head__brown", "y": 180 },
+        "colour=12,facing=south,occupied=true,part=head": {"model": "fm:bed_head__brown", "y": 90},
+        "colour=12,facing=west,occupied=true,part=head": {"model": "fm:bed_head__brown", "y": 270},
+
+        "colour=13,facing=north,occupied=true,part=head": {"model": "fm:bed_head__green"},
+        "colour=13,facing=east,occupied=true,part=head": {"model": "fm:bed_head__green", "y": 180 },
+        "colour=13,facing=south,occupied=true,part=head": {"model": "fm:bed_head__green", "y": 90},
+        "colour=13,facing=west,occupied=true,part=head": {"model": "fm:bed_head__green", "y": 270},
+
+        "colour=14,facing=north,occupied=true,part=head": {"model": "fm:bed_head__red"},
+        "colour=14,facing=east,occupied=true,part=head": {"model": "fm:bed_head__red", "y": 180 },
+        "colour=14,facing=south,occupied=true,part=head": {"model": "fm:bed_head__red", "y": 90},
+        "colour=14,facing=west,occupied=true,part=head": {"model": "fm:bed_head__red", "y": 270},
+
+        "colour=15,facing=north,occupied=true,part=head": {"model": "fm:bed_head__black"},
+        "colour=15,facing=east,occupied=true,part=head": {"model": "fm:bed_head__black", "y": 180 },
+        "colour=15,facing=south,occupied=true,part=head": {"model": "fm:bed_head__black", "y": 90},
+        "colour=15,facing=west,occupied=true,part=head": {"model": "fm:bed_head__black", "y": 270},
+        
+        "colour=0,facing=north,occupied=true,part=foot": {"model": "fm:bed_end__white"},
+        "colour=0,facing=east,occupied=true,part=foot": {"model": "fm:bed_end__white", "y": 180 },
+        "colour=0,facing=south,occupied=true,part=foot": {"model": "fm:bed_end__white", "y": 90},
+        "colour=0,facing=west,occupied=true,part=foot": {"model": "fm:bed_end__white", "y": 270},
+
+        "colour=1,facing=north,occupied=true,part=foot": {"model": "fm:bed_end__orange"},
+        "colour=1,facing=east,occupied=true,part=foot": {"model": "fm:bed_end__orange", "y": 180 },
+        "colour=1,facing=south,occupied=true,part=foot": {"model": "fm:bed_end__orange", "y": 90},
+        "colour=1,facing=west,occupied=true,part=foot": {"model": "fm:bed_end__orange", "y": 270},
+
+        "colour=2,facing=north,occupied=true,part=foot": {"model": "fm:bed_end__magenta"},
+        "colour=2,facing=east,occupied=true,part=foot": {"model": "fm:bed_end__magenta", "y": 180 },
+        "colour=2,facing=south,occupied=true,part=foot": {"model": "fm:bed_end__magenta", "y": 90},
+        "colour=2,facing=west,occupied=true,part=foot": {"model": "fm:bed_end__magenta", "y": 270},
+
+        "colour=3,facing=north,occupied=true,part=foot": {"model": "fm:bed_end__light_blue"},
+        "colour=3,facing=east,occupied=true,part=foot": {"model": "fm:bed_end__light_blue", "y": 180 },
+        "colour=3,facing=south,occupied=true,part=foot": {"model": "fm:bed_end__light_blue", "y": 90},
+        "colour=3,facing=west,occupied=true,part=foot": {"model": "fm:bed_end__light_blue", "y": 270},
+
+        "colour=4,facing=north,occupied=true,part=foot": {"model": "fm:bed_end__yellow"},
+        "colour=4,facing=east,occupied=true,part=foot": {"model": "fm:bed_end__yellow", "y": 180 },
+        "colour=4,facing=south,occupied=true,part=foot": {"model": "fm:bed_end__yellow", "y": 90},
+        "colour=4,facing=west,occupied=true,part=foot": {"model": "fm:bed_end__yellow", "y": 270},
+
+        "colour=5,facing=north,occupied=true,part=foot": {"model": "fm:bed_end__lime"},
+        "colour=5,facing=east,occupied=true,part=foot": {"model": "fm:bed_end__lime", "y": 180 },
+        "colour=5,facing=south,occupied=true,part=foot": {"model": "fm:bed_end__lime", "y": 90},
+        "colour=5,facing=west,occupied=true,part=foot": {"model": "fm:bed_end__lime", "y": 270},
+
+        "colour=6,facing=north,occupied=true,part=foot": {"model": "fm:bed_end__pink"},
+        "colour=6,facing=east,occupied=true,part=foot": {"model": "fm:bed_end__pink", "y": 180 },
+        "colour=6,facing=south,occupied=true,part=foot": {"model": "fm:bed_end__pink", "y": 90},
+        "colour=6,facing=west,occupied=true,part=foot": {"model": "fm:bed_end__pink", "y": 270},
+
+        "colour=7,facing=north,occupied=true,part=foot": {"model": "fm:bed_end__grey"},
+        "colour=7,facing=east,occupied=true,part=foot": {"model": "fm:bed_end__grey", "y": 180 },
+        "colour=7,facing=south,occupied=true,part=foot": {"model": "fm:bed_end__grey", "y": 90},
+        "colour=7,facing=west,occupied=true,part=foot": {"model": "fm:bed_end__grey", "y": 270},
+
+        "colour=8,facing=north,occupied=true,part=foot": {"model": "fm:bed_end_light_grey"},
+        "colour=8,facing=east,occupied=true,part=foot": {"model": "fm:bed_end_light_grey", "y": 180 },
+        "colour=8,facing=south,occupied=true,part=foot": {"model": "fm:bed_end_light_grey", "y": 90},
+        "colour=8,facing=west,occupied=true,part=foot": {"model": "fm:bed_end_light_grey", "y": 270},
+
+        "colour=9,facing=north,occupied=true,part=foot": {"model": "fm:bed_end__cyan"},
+        "colour=9,facing=east,occupied=true,part=foot": {"model": "fm:bed_end__cyan", "y": 180 },
+        "colour=9,facing=south,occupied=true,part=foot": {"model": "fm:bed_end__cyan", "y": 90},
+        "colour=9,facing=west,occupied=true,part=foot": {"model": "fm:bed_end__cyan", "y": 270},
+
+        "colour=10,facing=north,occupied=true,part=foot": {"model": "fm:bed_end__purple"},
+        "colour=10,facing=east,occupied=true,part=foot": {"model": "fm:bed_end__purple", "y": 180 },
+        "colour=10,facing=south,occupied=true,part=foot": {"model": "fm:bed_end__purple", "y": 90},
+        "colour=10,facing=west,occupied=true,part=foot": {"model": "fm:bed_end__purple", "y": 270},
+
+        "colour=11,facing=north,occupied=true,part=foot": {"model": "fm:bed_end__blue"},
+        "colour=11,facing=east,occupied=true,part=foot": {"model": "fm:bed_end__blue", "y": 180 },
+        "colour=11,facing=south,occupied=true,part=foot": {"model": "fm:bed_end__blue", "y": 90},
+        "colour=11,facing=west,occupied=true,part=foot": {"model": "fm:bed_end__blue", "y": 270},
+
+        "colour=12,facing=north,occupied=true,part=foot": {"model": "fm:bed_end__brown"},
+        "colour=12,facing=east,occupied=true,part=foot": {"model": "fm:bed_end__brown", "y": 180 },
+        "colour=12,facing=south,occupied=true,part=foot": {"model": "fm:bed_end__brown", "y": 90},
+        "colour=12,facing=west,occupied=true,part=foot": {"model": "fm:bed_end__brown", "y": 270},
+
+        "colour=13,facing=north,occupied=true,part=foot": {"model": "fm:bed_end__green"},
+        "colour=13,facing=east,occupied=true,part=foot": {"model": "fm:bed_end__green", "y": 180 },
+        "colour=13,facing=south,occupied=true,part=foot": {"model": "fm:bed_end__green", "y": 90},
+        "colour=13,facing=west,occupied=true,part=foot": {"model": "fm:bed_end__green", "y": 270},
+
+        "colour=14,facing=north,occupied=true,part=foot": {"model": "fm:bed_end__red"},
+        "colour=14,facing=east,occupied=true,part=foot": {"model": "fm:bed_end__red", "y": 180 },
+        "colour=14,facing=south,occupied=true,part=foot": {"model": "fm:bed_end__red", "y": 90},
+        "colour=14,facing=west,occupied=true,part=foot": {"model": "fm:bed_end__red", "y": 270},
+
+        "colour=15,facing=north,occupied=true,part=foot": {"model": "fm:bed_end__black"},
+        "colour=15,facing=east,occupied=true,part=foot": {"model": "fm:bed_end__black", "y": 180 },
+        "colour=15,facing=south,occupied=true,part=foot": {"model": "fm:bed_end__black", "y": 90},
+        "colour=15,facing=west,occupied=true,part=foot": {"model": "fm:bed_end__black", "y": 270},
+        
+        "colour=0,facing=north,occupied=false,part=head": {"model": "fm:bed_head__white"},
+        "colour=0,facing=east,occupied=false,part=head": {"model": "fm:bed_head__white", "y": 180 },
+        "colour=0,facing=south,occupied=false,part=head": {"model": "fm:bed_head__white", "y": 90},
+        "colour=0,facing=west,occupied=false,part=head": {"model": "fm:bed_head__white", "y": 270},
+
+        "colour=1,facing=north,occupied=false,part=head": {"model": "fm:bed_head__orange"},
+        "colour=1,facing=east,occupied=false,part=head": {"model": "fm:bed_head__orange", "y": 180 },
+        "colour=1,facing=south,occupied=false,part=head": {"model": "fm:bed_head__orange", "y": 90},
+        "colour=1,facing=west,occupied=false,part=head": {"model": "fm:bed_head__orange", "y": 270},
+
+        "colour=2,facing=north,occupied=false,part=head": {"model": "fm:bed_head__magenta"},
+        "colour=2,facing=east,occupied=false,part=head": {"model": "fm:bed_head__magenta", "y": 180 },
+        "colour=2,facing=south,occupied=false,part=head": {"model": "fm:bed_head__magenta", "y": 90},
+        "colour=2,facing=west,occupied=false,part=head": {"model": "fm:bed_head__magenta", "y": 270},
+
+        "colour=3,facing=north,occupied=false,part=head": {"model": "fm:bed_head__light_blue"},
+        "colour=3,facing=east,occupied=false,part=head": {"model": "fm:bed_head__light_blue", "y": 180 },
+        "colour=3,facing=south,occupied=false,part=head": {"model": "fm:bed_head__light_blue", "y": 90},
+        "colour=3,facing=west,occupied=false,part=head": {"model": "fm:bed_head__light_blue", "y": 270},
+
+        "colour=4,facing=north,occupied=false,part=head": {"model": "fm:bed_head__yellow"},
+        "colour=4,facing=east,occupied=false,part=head": {"model": "fm:bed_head__yellow", "y": 180 },
+        "colour=4,facing=south,occupied=false,part=head": {"model": "fm:bed_head__yellow", "y": 90},
+        "colour=4,facing=west,occupied=false,part=head": {"model": "fm:bed_head__yellow", "y": 270},
+
+        "colour=5,facing=north,occupied=false,part=head": {"model": "fm:bed_head__lime"},
+        "colour=5,facing=east,occupied=false,part=head": {"model": "fm:bed_head__lime", "y": 180 },
+        "colour=5,facing=south,occupied=false,part=head": {"model": "fm:bed_head__lime", "y": 90},
+        "colour=5,facing=west,occupied=false,part=head": {"model": "fm:bed_head__lime", "y": 270},
+
+        "colour=6,facing=north,occupied=false,part=head": {"model": "fm:bed_head__pink"},
+        "colour=6,facing=east,occupied=false,part=head": {"model": "fm:bed_head__pink", "y": 180 },
+        "colour=6,facing=south,occupied=false,part=head": {"model": "fm:bed_head__pink", "y": 90},
+        "colour=6,facing=west,occupied=false,part=head": {"model": "fm:bed_head__pink", "y": 270},
+
+        "colour=7,facing=north,occupied=false,part=head": {"model": "fm:bed_head__grey"},
+        "colour=7,facing=east,occupied=false,part=head": {"model": "fm:bed_head__grey", "y": 180 },
+        "colour=7,facing=south,occupied=false,part=head": {"model": "fm:bed_head__grey", "y": 90},
+        "colour=7,facing=west,occupied=false,part=head": {"model": "fm:bed_head__grey", "y": 270},
+
+        "colour=8,facing=north,occupied=false,part=head": {"model": "fm:bed_head_light_grey"},
+        "colour=8,facing=east,occupied=false,part=head": {"model": "fm:bed_head_light_grey", "y": 180 },
+        "colour=8,facing=south,occupied=false,part=head": {"model": "fm:bed_head_light_grey", "y": 90},
+        "colour=8,facing=west,occupied=false,part=head": {"model": "fm:bed_head_light_grey", "y": 270},
+
+        "colour=9,facing=north,occupied=false,part=head": {"model": "fm:bed_head__cyan"},
+        "colour=9,facing=east,occupied=false,part=head": {"model": "fm:bed_head__cyan", "y": 180 },
+        "colour=9,facing=south,occupied=false,part=head": {"model": "fm:bed_head__cyan", "y": 90},
+        "colour=9,facing=west,occupied=false,part=head": {"model": "fm:bed_head__cyan", "y": 270},
+
+        "colour=10,facing=north,occupied=false,part=head": {"model": "fm:bed_head__purple"},
+        "colour=10,facing=east,occupied=false,part=head": {"model": "fm:bed_head__purple", "y": 180 },
+        "colour=10,facing=south,occupied=false,part=head": {"model": "fm:bed_head__purple", "y": 90},
+        "colour=10,facing=west,occupied=false,part=head": {"model": "fm:bed_head__purple", "y": 270},
+
+        "colour=11,facing=north,occupied=false,part=head": {"model": "fm:bed_head__blue"},
+        "colour=11,facing=east,occupied=false,part=head": {"model": "fm:bed_head__blue", "y": 180 },
+        "colour=11,facing=south,occupied=false,part=head": {"model": "fm:bed_head__blue", "y": 90},
+        "colour=11,facing=west,occupied=false,part=head": {"model": "fm:bed_head__blue", "y": 270},
+
+        "colour=12,facing=north,occupied=false,part=head": {"model": "fm:bed_head__brown"},
+        "colour=12,facing=east,occupied=false,part=head": {"model": "fm:bed_head__brown", "y": 180 },
+        "colour=12,facing=south,occupied=false,part=head": {"model": "fm:bed_head__brown", "y": 90},
+        "colour=12,facing=west,occupied=false,part=head": {"model": "fm:bed_head__brown", "y": 270},
+
+        "colour=13,facing=north,occupied=false,part=head": {"model": "fm:bed_head__green"},
+        "colour=13,facing=east,occupied=false,part=head": {"model": "fm:bed_head__green", "y": 180 },
+        "colour=13,facing=south,occupied=false,part=head": {"model": "fm:bed_head__green", "y": 90},
+        "colour=13,facing=west,occupied=false,part=head": {"model": "fm:bed_head__green", "y": 270},
+
+        "colour=14,facing=north,occupied=false,part=head": {"model": "fm:bed_head__red"},
+        "colour=14,facing=east,occupied=false,part=head": {"model": "fm:bed_head__red", "y": 180 },
+        "colour=14,facing=south,occupied=false,part=head": {"model": "fm:bed_head__red", "y": 90},
+        "colour=14,facing=west,occupied=false,part=head": {"model": "fm:bed_head__red", "y": 270},
+
+        "colour=15,facing=north,occupied=false,part=head": {"model": "fm:bed_head__black"},
+        "colour=15,facing=east,occupied=false,part=head": {"model": "fm:bed_head__black", "y": 180 },
+        "colour=15,facing=south,occupied=false,part=head": {"model": "fm:bed_head__black", "y": 90},
+        "colour=15,facing=west,occupied=false,part=head": {"model": "fm:bed_head__black", "y": 270},
+        
+        "colour=0,facing=north,occupied=false,part=foot": {"model": "fm:bed_end__white"},
+        "colour=0,facing=east,occupied=false,part=foot": {"model": "fm:bed_end__white", "y": 180 },
+        "colour=0,facing=south,occupied=false,part=foot": {"model": "fm:bed_end__white", "y": 90},
+        "colour=0,facing=west,occupied=false,part=foot": {"model": "fm:bed_end__white", "y": 270},
+
+        "colour=1,facing=north,occupied=false,part=foot": {"model": "fm:bed_end__orange"},
+        "colour=1,facing=east,occupied=false,part=foot": {"model": "fm:bed_end__orange", "y": 180 },
+        "colour=1,facing=south,occupied=false,part=foot": {"model": "fm:bed_end__orange", "y": 90},
+        "colour=1,facing=west,occupied=false,part=foot": {"model": "fm:bed_end__orange", "y": 270},
+
+        "colour=2,facing=north,occupied=false,part=foot": {"model": "fm:bed_end__magenta"},
+        "colour=2,facing=east,occupied=false,part=foot": {"model": "fm:bed_end__magenta", "y": 180 },
+        "colour=2,facing=south,occupied=false,part=foot": {"model": "fm:bed_end__magenta", "y": 90},
+        "colour=2,facing=west,occupied=false,part=foot": {"model": "fm:bed_end__magenta", "y": 270},
+
+        "colour=3,facing=north,occupied=false,part=foot": {"model": "fm:bed_end__light_blue"},
+        "colour=3,facing=east,occupied=false,part=foot": {"model": "fm:bed_end__light_blue", "y": 180 },
+        "colour=3,facing=south,occupied=false,part=foot": {"model": "fm:bed_end__light_blue", "y": 90},
+        "colour=3,facing=west,occupied=false,part=foot": {"model": "fm:bed_end__light_blue", "y": 270},
+
+        "colour=4,facing=north,occupied=false,part=foot": {"model": "fm:bed_end__yellow"},
+        "colour=4,facing=east,occupied=false,part=foot": {"model": "fm:bed_end__yellow", "y": 180 },
+        "colour=4,facing=south,occupied=false,part=foot": {"model": "fm:bed_end__yellow", "y": 90},
+        "colour=4,facing=west,occupied=false,part=foot": {"model": "fm:bed_end__yellow", "y": 270},
+
+        "colour=5,facing=north,occupied=false,part=foot": {"model": "fm:bed_end__lime"},
+        "colour=5,facing=east,occupied=false,part=foot": {"model": "fm:bed_end__lime", "y": 180 },
+        "colour=5,facing=south,occupied=false,part=foot": {"model": "fm:bed_end__lime", "y": 90},
+        "colour=5,facing=west,occupied=false,part=foot": {"model": "fm:bed_end__lime", "y": 270},
+
+        "colour=6,facing=north,occupied=false,part=foot": {"model": "fm:bed_end__pink"},
+        "colour=6,facing=east,occupied=false,part=foot": {"model": "fm:bed_end__pink", "y": 180 },
+        "colour=6,facing=south,occupied=false,part=foot": {"model": "fm:bed_end__pink", "y": 90},
+        "colour=6,facing=west,occupied=false,part=foot": {"model": "fm:bed_end__pink", "y": 270},
+
+        "colour=7,facing=north,occupied=false,part=foot": {"model": "fm:bed_end__grey"},
+        "colour=7,facing=east,occupied=false,part=foot": {"model": "fm:bed_end__grey", "y": 180 },
+        "colour=7,facing=south,occupied=false,part=foot": {"model": "fm:bed_end__grey", "y": 90},
+        "colour=7,facing=west,occupied=false,part=foot": {"model": "fm:bed_end__grey", "y": 270},
+
+        "colour=8,facing=north,occupied=false,part=foot": {"model": "fm:bed_end_light_grey"},
+        "colour=8,facing=east,occupied=false,part=foot": {"model": "fm:bed_end_light_grey", "y": 180 },
+        "colour=8,facing=south,occupied=false,part=foot": {"model": "fm:bed_end_light_grey", "y": 90},
+        "colour=8,facing=west,occupied=false,part=foot": {"model": "fm:bed_end_light_grey", "y": 270},
+
+        "colour=9,facing=north,occupied=false,part=foot": {"model": "fm:bed_end__cyan"},
+        "colour=9,facing=east,occupied=false,part=foot": {"model": "fm:bed_end__cyan", "y": 180 },
+        "colour=9,facing=south,occupied=false,part=foot": {"model": "fm:bed_end__cyan", "y": 90},
+        "colour=9,facing=west,occupied=false,part=foot": {"model": "fm:bed_end__cyan", "y": 270},
+
+        "colour=10,facing=north,occupied=false,part=foot": {"model": "fm:bed_end__purple"},
+        "colour=10,facing=east,occupied=false,part=foot": {"model": "fm:bed_end__purple", "y": 180 },
+        "colour=10,facing=south,occupied=false,part=foot": {"model": "fm:bed_end__purple", "y": 90},
+        "colour=10,facing=west,occupied=false,part=foot": {"model": "fm:bed_end__purple", "y": 270},
+
+        "colour=11,facing=north,occupied=false,part=foot": {"model": "fm:bed_end__blue"},
+        "colour=11,facing=east,occupied=false,part=foot": {"model": "fm:bed_end__blue", "y": 180 },
+        "colour=11,facing=south,occupied=false,part=foot": {"model": "fm:bed_end__blue", "y": 90},
+        "colour=11,facing=west,occupied=false,part=foot": {"model": "fm:bed_end__blue", "y": 270},
+
+        "colour=12,facing=north,occupied=false,part=foot": {"model": "fm:bed_end__brown"},
+        "colour=12,facing=east,occupied=false,part=foot": {"model": "fm:bed_end__brown", "y": 180 },
+        "colour=12,facing=south,occupied=false,part=foot": {"model": "fm:bed_end__brown", "y": 90},
+        "colour=12,facing=west,occupied=false,part=foot": {"model": "fm:bed_end__brown", "y": 270},
+
+        "colour=13,facing=north,occupied=false,part=foot": {"model": "fm:bed_end__green"},
+        "colour=13,facing=east,occupied=false,part=foot": {"model": "fm:bed_end__green", "y": 180 },
+        "colour=13,facing=south,occupied=false,part=foot": {"model": "fm:bed_end__green", "y": 180},
+        "colour=13,facing=west,occupied=false,part=foot": {"model": "fm:bed_end__green", "y": 270},
+
+        "colour=14,facing=north,occupied=false,part=foot": {"model": "fm:bed_end__red"},
+        "colour=14,facing=east,occupied=false,part=foot": {"model": "fm:bed_end__red", "y": 180 },
+        "colour=14,facing=south,occupied=false,part=foot": {"model": "fm:bed_end__red", "y": 90},
+        "colour=14,facing=west,occupied=false,part=foot": {"model": "fm:bed_end__red", "y": 270},
+
+        "colour=15,facing=north,occupied=false,part=foot": {"model": "fm:bed_end__black"},
+        "colour=15,facing=east,occupied=false,part=foot": {"model": "fm:bed_end__black", "y": 180 },
+        "colour=15,facing=south,occupied=false,part=foot": {"model": "fm:bed_end__black", "y": 90},
+        "colour=15,facing=west,occupied=false,part=foot": {"model": "fm:bed_end__black", "y": 270}
+    }
+}

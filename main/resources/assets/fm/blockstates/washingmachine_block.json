@@ -1,0 +1,8 @@
+{
+"variants": {
+"facing=north": {"model": "fm:washingmachine_block", "y": 270},
+"facing=south": { "model": "fm:washingmachine_block", "y": 90},
+"facing=east": { "model": "fm:washingmachine_block"},
+"facing=west": { "model": "fm:washingmachine_block", "y": 180}
+            }
+}

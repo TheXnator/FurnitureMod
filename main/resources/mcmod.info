@@ -1,0 +1,16 @@
+[
+{
+  "modid": "fm",
+  "name": "TheXnator's Furniture Mod",
+  "description": "A mod that adds furniture into the game.",
+  "version": "2.0",
+  "mcversion": "1.8.9",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["TheXnator"],
+  "credits": "Thanks to LapisSea for some help with gliders!",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

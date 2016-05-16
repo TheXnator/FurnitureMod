@@ -1,0 +1,8 @@
+{
+"variants": {
+"facing=north": {"model": "fm:paperstack", "y": 270},
+"facing=south": { "model": "fm:paperstack", "y": 90},
+"facing=east": { "model": "fm:paperstack"},
+"facing=west": { "model": "fm:paperstack", "y": 180}
+}
+}

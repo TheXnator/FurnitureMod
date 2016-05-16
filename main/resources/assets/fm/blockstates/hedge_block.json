@@ -1,0 +1,8 @@
+{
+"variants": {
+"facing=north": {"model": "fm:hedge_block", "y": 270},
+"facing=south": { "model": "fm:hedge_block", "y": 90},
+"facing=east": { "model": "fm:hedge_block"},
+"facing=west": { "model": "fm:hedge_block", "y": 180}
+}
+}

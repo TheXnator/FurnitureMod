@@ -1,0 +1,8 @@
+{
+"variants": {
+"facing=north": { "model": "fm:bedside_cabinet" },
+"facing=south": { "model": "fm:bedside_cabinet", "y": 180 },
+"facing=east":  { "model": "fm:bedside_cabinet", "y": 90 },
+"facing=west":  { "model": "fm:bedside_cabinet", "y": 270 }
+}
+}

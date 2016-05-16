@@ -1,0 +1,8 @@
+{
+"variants": {
+"facing=north": {"model": "fm:counter_block", "y": 270},
+"facing=south": { "model": "fm:counter_block", "y": 90},
+"facing=east": { "model": "fm:counter_block"},
+"facing=west": { "model": "fm:counter_block", "y": 180}
+}
+}

@@ -1,0 +1,15 @@
+{
+    "parent": "fm:block/dolphinitem",
+    "display": {
+        "thirdperson": {
+            "rotation": [ 10, -45, 170 ],
+            "translation": [ 0, 1.5, -2.75 ],
+            "scale": [ 1.0, 1.0, 1.0 ]
+        },
+        "firstperson": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 1.5, -2.75 ],
+            "scale": [ 3.0, 3.0, 3.0 ]
+        }
+    }
+}

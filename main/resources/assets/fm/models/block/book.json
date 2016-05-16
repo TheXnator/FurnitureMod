@@ -1,0 +1,23 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+    "textures": {
+        "particle": "fm:items/book_top",
+        "0": "blocks/quartz_block_top",
+        "1": "fm:items/book_top"
+    },
+    "elements": [
+        {
+            "name": "Cube",
+            "from": [ 0.0, 0.0, 6.0 ], 
+            "to": [ 16.0, 3.0, 16.0 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0.0, 0.0, 10.0, 2.0 ] },
+                "east": { "texture": "#0", "uv": [ 0.0, 0.0, 10.0, 1.0 ] },
+                "south": { "texture": "#1", "uv": [ 0.0, 0.0, 16.0, 1.0 ] },
+                "west": { "texture": "#0", "uv": [ 0.0, 0.0, 5.0, 2.0 ] },
+                "up": { "texture": "#1", "uv": [ 0.0, 3.0, 16.0, 13.0 ] },
+                "down": { "texture": "#1", "uv": [ 0.0, 0.0, 16.0, 1.0 ] }
+            }
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+{
+"variants": {
+"facing=north": {"model": "fm:desk_block", "y": 270},
+"facing=south": { "model": "fm:desk_block", "y": 90},
+"facing=east": { "model": "fm:desk_block"},
+"facing=west": { "model": "fm:desk_block", "y": 180}
+}
+}

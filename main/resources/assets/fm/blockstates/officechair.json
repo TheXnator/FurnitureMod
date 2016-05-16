@@ -1,0 +1,8 @@
+{
+"variants": {
+"facing=north": {"model": "fm:officechair", "y": 270},
+"facing=south": { "model": "fm:officechair", "y": 90},
+"facing=east": { "model": "fm:officechair"},
+"facing=west": { "model": "fm:officechair", "y": 180}
+}
+}

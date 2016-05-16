@@ -1,0 +1,8 @@
+{
+"variants": {
+"facing=north": {"model": "fm:wardrobe_block", "y": 270},
+"facing=south": { "model": "fm:wardrobe_block", "y": 90},
+"facing=east": { "model": "fm:wardrobe_block"},
+"facing=west": { "model": "fm:wardrobe_block", "y": 180}
+            }
+}

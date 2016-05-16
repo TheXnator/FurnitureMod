@@ -1,0 +1,40 @@
+tile.table_block.name=Table
+tile.chair_block.name=Chair
+tile.sofa_block.name=Sofa
+tile.barrel_block.name=Barrel
+tile.counter_block.name=Kitchen Counter
+tile.countercorner_block.name=Counter Corner
+tile.washingmachine_block.name=Washing Machine
+tile.coffeetable_block.name=Coffee Table
+tile.tile_block.name=Tiles
+tile.oven_block.name=Oven
+tile.picketfence_block.name=Picket Fence
+tile.hedge_block.name=Hedge
+tile.computer_block.name=Computer
+tile.desk_block.name=Desk
+tile.wardrobe_block.name=Wardrobe
+tile.book.name=Book
+tile.printer.name=Printer
+tile.shelf_block.name=Shelf
+tile.fishtank_block.name=Fish Tank
+tile.picketfencecorner.name= Picket Fence Corner
+tile.officechair.name=Office Chair
+tile.paperstack.name=Paper Stack
+tile.dolphin.name=Dolphin
+tile.drawers.name=Drawers
+tile.bedside_cabinet.name=Bedside Cabinet
+tile.mirror.name=Mirror
+
+item.xnator_item.name=TheXnator's Head
+item.freshner_item.name=Freshener
+item.superfreshner_item.name=Super Freshener
+item.phone.name=Phone
+item.hangglider.name=Hang Glider
+
+entity.MailMan.name=MailMan
+
+itemGroup.tabFurniture=TheXnator Furniture Mod
+
+keys.fm.category=TheXnator's Furniture Mod
+key.clicksound.desc=Pen Click
+key.chairspin.desc=Chair Spin (Unimplemented)

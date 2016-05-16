@@ -1,0 +1,6 @@
+{
+"parent": "fm:block/bed_end",
+"textures": {
+"3": "blocks/wool_colored_blue"
+}
+}

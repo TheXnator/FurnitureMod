@@ -1,0 +1,6 @@
+{
+"parent": "fm:block/dolphin",
+"textures": {
+"1": "blocks/wool_colored_magenta"
+}
+}
