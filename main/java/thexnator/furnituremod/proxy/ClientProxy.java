@@ -1,6 +1,7 @@
 package thexnator.furnituremod.proxy;
 
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.entity.AbstractClientPlayer;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.entity.Render;
 import net.minecraft.client.renderer.entity.RenderEntityItem;
@@ -47,6 +48,7 @@ public class ClientProxy extends CommonProxy
 {	
 	@SideOnly(Side.CLIENT)
 	public static GliderPlayerRenderHandler renderEvents;
+	private AbstractClientPlayer player;
 	
 	public static boolean rendering = false;
 	public static Entity renderEntity = null;

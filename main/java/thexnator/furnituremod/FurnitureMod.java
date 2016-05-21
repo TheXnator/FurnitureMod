@@ -80,7 +80,6 @@ public class FurnitureMod implements IWorldGenerator
 		if(world.provider.getDimensionId()==0)MailMan.generateSurface(world, random, chunkX, chunkZ);
 	}
 	
-	private AbstractClientPlayer player;
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event)
 	{
@@ -107,7 +106,6 @@ public class FurnitureMod implements IWorldGenerator
 		//MinecraftForge.EVENT_BUS.register(MapDataManager.instance);
 		
 		MinecraftForge.EVENT_BUS.register(new EntityEventHandler());
-		MinecraftForge.EVENT_BUS.register(new PlayerBodyRenderEvent(player, 0));
 		
 		if (event.getSide() == Side.CLIENT)
 		{
