@@ -2,12 +2,11 @@ package thexnator.furnituremod.util.utilclasses;
 
 import java.util.Random;
 
-import thexnator.furnituremod.util.utilclasses.UtilM.U;
-
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.BlockPos;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.world.World;
+import thexnator.furnituremod.util.utilclasses.UtilM.U;
 
 public class SideUtil{
 	

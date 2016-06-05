@@ -21,7 +21,6 @@ import net.minecraft.util.IChatComponent;
 import net.minecraft.util.ITickable;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
-
 import thexnator.furnituremod.api.RecipeAPI;
 import thexnator.furnituremod.api.RecipeData;
 import thexnator.furnituremod.api.Recipes;

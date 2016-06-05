@@ -7,12 +7,11 @@ import java.util.List;
 import org.lwjgl.util.vector.Matrix4f;
 import org.lwjgl.util.vector.Vector3f;
 
+import net.minecraft.client.model.PositionTextureVertex;
+import net.minecraft.util.Vec3;
 import thexnator.furnituremod.util.utilclasses.math.MatrixUtil;
 import thexnator.furnituremod.util.utilobjects.DoubleObject;
 import thexnator.furnituremod.util.utilobjects.vectors.Vec3M;
-
-import net.minecraft.client.model.PositionTextureVertex;
-import net.minecraft.util.Vec3;
 
 public class GeometryUtil{
 

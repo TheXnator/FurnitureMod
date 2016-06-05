@@ -1,8 +1,9 @@
 package thexnator.furnituremod.util.renderers;
 
-import static org.lwjgl.opengl.GL11.*;
-
-import net.minecraft.client.renderer.GlStateManager;
+import static org.lwjgl.opengl.GL11.GL_ALPHA_TEST;
+import static org.lwjgl.opengl.GL11.glDisable;
+import static org.lwjgl.opengl.GL11.glEnable;
+import static org.lwjgl.opengl.GL11.glLineWidth;
 
 /**
  * Short for OpenGLM

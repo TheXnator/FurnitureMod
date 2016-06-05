@@ -4,13 +4,13 @@ import java.util.EnumSet;
 import java.util.List;
 import java.util.Set;
 
+import com.google.common.collect.ImmutableList;
+
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.Vec3;
 import thexnator.furnituremod.shapes.IShapeable;
 import thexnator.furnituremod.utils.Coord;
 import thexnator.furnituremod.utils.MathUtils;
-
-import com.google.common.collect.ImmutableList;
 
 public class GeometryUtils {
 

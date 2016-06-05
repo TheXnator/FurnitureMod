@@ -1,9 +1,8 @@
 package thexnator.furnituremod.util.utilclasses;
 
-import thexnator.furnituremod.util.utilobjects.vectors.Vec3M;
-
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.util.MovingObjectPosition;
+import thexnator.furnituremod.util.utilobjects.vectors.Vec3M;
 
 public class RayTracer{
 

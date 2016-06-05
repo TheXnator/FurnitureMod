@@ -2,12 +2,12 @@ package thexnator.furnituremod.renderer;
 
 import java.util.List;
 
+import com.google.common.base.Preconditions;
+import com.google.common.collect.Lists;
+
 import net.minecraft.client.renderer.texture.TextureManager;
 import net.minecraft.util.ResourceLocation;
 import thexnator.furnituremod.utils.ByteUtils;
-
-import com.google.common.base.Preconditions;
-import com.google.common.collect.Lists;
 
 public class DynamicTextureAtlas {
 

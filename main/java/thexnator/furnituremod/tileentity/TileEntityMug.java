@@ -7,9 +7,7 @@ import net.minecraft.network.NetworkManager;
 import net.minecraft.network.Packet;
 import net.minecraft.network.play.server.S35PacketUpdateTileEntity;
 import net.minecraft.tileentity.TileEntity;
-
 import thexnator.furnituremod.gui.inventory.ISimpleInventory;
-import thexnator.furnituremod.util.NBTHelper;
 
 public class TileEntityMug extends TileEntity implements ISimpleInventory {
 	

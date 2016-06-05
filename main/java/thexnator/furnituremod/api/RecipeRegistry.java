@@ -4,7 +4,6 @@ import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import thexnator.furnituremod.handler.ConfigurationHandler;
-import thexnator.furnituremod.init.FurnitureItems;
 
 public class RecipeRegistry extends RecipeAPI
 {

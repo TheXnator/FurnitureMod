@@ -1,8 +1,16 @@
 package thexnator.furnituremod.util.utilclasses;
 
-import static org.apache.logging.log4j.Level.*;
+import static org.apache.logging.log4j.Level.ALL;
+import static org.apache.logging.log4j.Level.DEBUG;
+import static org.apache.logging.log4j.Level.ERROR;
+import static org.apache.logging.log4j.Level.FATAL;
+import static org.apache.logging.log4j.Level.INFO;
+import static org.apache.logging.log4j.Level.OFF;
+import static org.apache.logging.log4j.Level.TRACE;
+import static org.apache.logging.log4j.Level.WARN;
 
 import org.apache.logging.log4j.Level;
+
 import net.minecraftforge.fml.common.FMLLog;
 import thexnator.furnituremod.Reference;
 

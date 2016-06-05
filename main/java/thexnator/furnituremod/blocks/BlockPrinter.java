@@ -2,7 +2,6 @@ package thexnator.furnituremod.blocks;
 
 import java.util.List;
 
-import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.properties.PropertyDirection;

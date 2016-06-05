@@ -1,10 +1,9 @@
 package thexnator.furnituremod.network.senders;
 
-import io.netty.channel.Channel;
-import net.minecraftforge.fml.common.network.FMLOutboundHandler;
-
 import java.util.Collection;
 
+import io.netty.channel.Channel;
+import net.minecraftforge.fml.common.network.FMLOutboundHandler;
 import thexnator.furnituremod.utils.NetUtils;
 
 

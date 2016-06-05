@@ -10,10 +10,6 @@ import org.lwjgl.util.vector.Vector;
 import org.lwjgl.util.vector.Vector3f;
 import org.lwjgl.util.vector.WritableVector3f;
 
-import thexnator.furnituremod.api.Calculable;
-import thexnator.furnituremod.util.utilclasses.math.MathUtil;
-import thexnator.furnituremod.util.utilclasses.math.MatrixUtil;
-
 import net.minecraft.util.BlockPos;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.MathHelper;
@@ -21,6 +17,9 @@ import net.minecraft.util.Vec3;
 import net.minecraft.util.Vec3i;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+import thexnator.furnituremod.api.Calculable;
+import thexnator.furnituremod.util.utilclasses.math.MathUtil;
+import thexnator.furnituremod.util.utilclasses.math.MatrixUtil;
 
 /**
  *	Copy of mc Vec3M because mc didn't hear of a word called convenient 

@@ -3,12 +3,11 @@ package thexnator.furnituremod.tileentity;
 import java.util.ArrayList;
 import java.util.List;
 
-import thexnator.furnituremod.CoordEntry;
-
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.nbt.NBTTagList;
 import net.minecraft.tileentity.TileEntity;
+import thexnator.furnituremod.CoordEntry;
 
 public class TileEntityCoordinateTeleporter extends TileEntity
 {

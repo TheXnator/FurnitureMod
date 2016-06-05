@@ -1,11 +1,9 @@
 package thexnator.furnituremod.util.utilclasses;
 
-import net.minecraft.client.gui.FontRenderer;
 import net.minecraft.client.particle.EffectRenderer;
 import net.minecraft.client.renderer.ItemModelMesher;
 import net.minecraft.client.renderer.ItemRenderer;
 import net.minecraft.client.renderer.Tessellator;
-import net.minecraft.client.renderer.WorldRenderer;
 import net.minecraft.client.renderer.entity.RenderItem;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.world.World;

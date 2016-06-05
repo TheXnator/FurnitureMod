@@ -3,9 +3,8 @@ package thexnator.furnituremod.util.utilclasses.math;
 
 import org.lwjgl.util.vector.Vector2f;
 
-import thexnator.furnituremod.util.utilobjects.vectors.Vec3M;
-
 import net.minecraft.entity.Entity;
+import thexnator.furnituremod.util.utilobjects.vectors.Vec3M;
 
 public class PartialTicksUtil{
 

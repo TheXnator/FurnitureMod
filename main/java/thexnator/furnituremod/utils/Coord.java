@@ -2,12 +2,8 @@ package thexnator.furnituremod.utils;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.util.EnumFacing;
-import net.minecraft.util.MathHelper;
 import net.minecraft.util.Vec3;
-import net.minecraft.world.ChunkCoordIntPair;
-import net.minecraft.world.World;
 import net.minecraft.world.chunk.Chunk;
-import net.minecraftforge.common.util.ChunkCoordComparator;
 
 public class Coord implements Cloneable {
 	public int x;

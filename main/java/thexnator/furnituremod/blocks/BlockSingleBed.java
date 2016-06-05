@@ -3,10 +3,7 @@ package thexnator.furnituremod.blocks;
 import java.util.List;
 import java.util.Random;
 
-import com.ibm.icu.text.MessagePattern.Part;
-
 import net.minecraft.block.Block;
-import net.minecraft.block.BlockBed;
 import net.minecraft.block.ITileEntityProvider;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.properties.IProperty;
@@ -34,12 +31,8 @@ import net.minecraft.world.World;
 import net.minecraft.world.biome.BiomeGenBase;
 import thexnator.furnituremod.entity.EntitySittableBlock;
 import thexnator.furnituremod.init.FurnitureBlocks;
-import thexnator.furnituremod.init.FurnitureItems;
-import thexnator.furnituremod.network.PacketHandler;
-import thexnator.furnituremod.tileentity.TileEntityDolphin;
 import thexnator.furnituremod.tileentity.TileEntitySingleBed;
 import thexnator.furnituremod.util.CollisionHelper;
-import thexnator.furnituremod.util.SittableUtil;
 
 public abstract class BlockSingleBed extends BlockFurniture implements ITileEntityProvider
 {

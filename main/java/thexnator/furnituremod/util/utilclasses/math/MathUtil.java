@@ -1,8 +1,7 @@
 package thexnator.furnituremod.util.utilclasses.math;
 
-import thexnator.furnituremod.util.utilclasses.RandUtil;
-
 import net.minecraft.util.MathHelper;
+import thexnator.furnituremod.util.utilclasses.RandUtil;
 
 public class MathUtil{
 

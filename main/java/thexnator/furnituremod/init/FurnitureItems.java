@@ -9,23 +9,24 @@ import thexnator.furnituremod.Reference;
 import thexnator.furnituremod.items.FreshnerItem;
 import thexnator.furnituremod.items.ItemHangGlider;
 import thexnator.furnituremod.items.ItemPhone;
-import thexnator.furnituremod.items.ItemPlacer;
 import thexnator.furnituremod.items.SuperFreshnerItem;
 import thexnator.furnituremod.items.XnatorItem;
 
-public class FurnitureItems {
-	
+public class FurnitureItems 
+{	
 	public static Item xnator_item;
 	public static Item freshner_item;
 	public static Item superfreshner_item;
 	public static Item phone;
 	//Bedroom Update
+	public static Item introbook;
 	//Glider
 	public static Item hangglider;
 	public static Item gliderwingleft;
 	public static Item gliderwingright;
 	
-	public static void init() {
+	public static void init()
+	{
 		xnator_item = new XnatorItem().setUnlocalizedName("xnator_item").setCreativeTab(FurnitureMod.tabFurniture);
 		freshner_item = new FreshnerItem().setUnlocalizedName("freshner_item").setCreativeTab(FurnitureMod.tabFurniture);
 		superfreshner_item = new SuperFreshnerItem().setUnlocalizedName("superfreshner_item").setCreativeTab(FurnitureMod.tabFurniture);

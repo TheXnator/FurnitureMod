@@ -1,14 +1,14 @@
 package thexnator.furnituremod.renderer;
 
+import com.google.common.base.Preconditions;
+
 import net.minecraft.client.renderer.texture.AbstractTexture;
 import net.minecraft.client.renderer.texture.TextureManager;
 import net.minecraft.client.renderer.texture.TextureUtil;
 import net.minecraft.client.resources.IResourceManager;
 import net.minecraft.util.ResourceLocation;
-import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraftforge.fml.relauncher.Side;
-
-import com.google.common.base.Preconditions;
+import net.minecraftforge.fml.relauncher.SideOnly;
 
 @SideOnly(Side.CLIENT)
 public class DisposableDynamicTexture extends AbstractTexture {

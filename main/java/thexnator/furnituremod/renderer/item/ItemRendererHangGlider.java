@@ -3,13 +3,10 @@ package thexnator.furnituremod.renderer.item;
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL12;
 
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.renderer.ItemRenderer;
 import net.minecraft.client.renderer.Tessellator;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.item.ItemStack;
 import thexnator.furnituremod.entity.EntityHangGlider;
-import thexnator.furnituremod.utils.TextureUtils;
 
 public class ItemRendererHangGlider {
 

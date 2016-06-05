@@ -1,9 +1,8 @@
 package thexnator.furnituremod.network.senders;
 
-import io.netty.channel.Channel;
-
 import java.util.Collection;
 
+import io.netty.channel.Channel;
 import thexnator.furnituremod.utils.NetUtils;
 
 public class PacketSenderBase implements IPacketSender {

@@ -3,11 +3,13 @@ package thexnator.furnituremod;
 import java.lang.reflect.Method;
 import java.util.Random;
 
+import org.lwjgl.opengl.GL11;
+
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.entity.AbstractClientPlayer;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
 import net.minecraft.world.chunk.IChunkProvider;
+import net.minecraftforge.client.event.RenderPlayerEvent;
 import net.minecraftforge.client.model.obj.OBJLoader;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.FMLCommonHandler;
@@ -23,6 +25,7 @@ import net.minecraftforge.fml.common.event.FMLInterModComms.IMCMessage;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
+import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.network.NetworkRegistry;
 import net.minecraftforge.fml.common.registry.EntityRegistry;
 import net.minecraftforge.fml.common.registry.GameRegistry;
@@ -43,9 +46,8 @@ import thexnator.furnituremod.mobs.MailMan;
 import thexnator.furnituremod.network.PacketHandler;
 import thexnator.furnituremod.network.event.NetworkEventManager;
 import thexnator.furnituremod.proxy.CommonProxy;
-import thexnator.furnituremod.renderer.PlayerBodyRenderEvent;
 
-@Mod(modid = Reference.MODID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS, acceptedMinecraftVersions=Reference.ACCEPTED_MC_VERSION)
+@Mod(modid = Reference.MODID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS, acceptedMinecraftVersions=Reference.ACCEPTED_MC_VERSION, dependencies = "after:guideapi")
 public class FurnitureMod implements IWorldGenerator
 {	
 	MailMan MailMan = new MailMan(Minecraft.getMinecraft().theWorld);
@@ -102,9 +104,7 @@ public class FurnitureMod implements IWorldGenerator
 		PacketHandler.init();
 		
 		EntityRegistry.registerModEntity(EntityHangGlider.class, "Hang Glider", ENTITY_HANGGLIDER_ID, FurnitureMod.instance, 64, 1, true);
-		
-		//MinecraftForge.EVENT_BUS.register(MapDataManager.instance);
-		
+				
 		MinecraftForge.EVENT_BUS.register(new EntityEventHandler());
 		
 		if (event.getSide() == Side.CLIENT)
@@ -125,7 +125,8 @@ public class FurnitureMod implements IWorldGenerator
 		proxy.registerRenderInformation();
 		proxy.registerRenders();
 		proxy.init();
-		//FurnitureEvents.init();
+		
+		if(event.getSide()==Side.CLIENT)MinecraftForge.EVENT_BUS.register(this);
 		
 		MailMan.load(event);
 		
@@ -196,5 +197,31 @@ public class FurnitureMod implements IWorldGenerator
 			e.printStackTrace();
 		}
 		
+	}
+	
+	 @SubscribeEvent
+	 public void rednerPlayerPre(RenderPlayerEvent.Pre event)
+	 {
+	    GL11.glPushMatrix();
+	       
+	    //ROTATION YAW OF WHOLE BODY
+	    float baseRotation=(event.entityPlayer.renderYawOffset-event.entityPlayer.prevRenderYawOffset)*event.partialRenderTick+event.entityPlayer.prevRenderYawOffset;
+	    GL11.glRotatef(-baseRotation, 0, 1, 0);
+	      
+	    if(!EntityHangGlider.isGliderDeployed(event.entityPlayer))
+	    {
+	    	//ROTATING
+		    GL11.glRotatef(90, 1, 0, 0);
+	    }
+	       
+	    //ROTATE BACK
+	    GL11.glRotatef(baseRotation, 0, 1, 0);
+	       
+	}
+	 
+	@SubscribeEvent
+	public void rednerPlayerPost(RenderPlayerEvent.Post event)
+	{
+	    GL11.glPopMatrix();
 	}
 }

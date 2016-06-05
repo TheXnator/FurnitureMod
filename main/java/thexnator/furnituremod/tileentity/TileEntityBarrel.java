@@ -11,7 +11,6 @@ import net.minecraft.tileentity.TileEntityLockable;
 import net.minecraft.util.ChatComponentText;
 import net.minecraft.util.IChatComponent;
 import thexnator.furnituremod.gui.containers.ContainerBarrel;
-import thexnator.furnituremod.util.NBTHelper;
 
 public class TileEntityBarrel extends TileEntityLockable implements IInventory
 {

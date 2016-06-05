@@ -1,6 +1,5 @@
 package thexnator.furnituremod.blocks;
 
-import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.properties.PropertyDirection;
@@ -15,7 +14,6 @@ import net.minecraft.util.EnumWorldBlockLayer;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
-
 import thexnator.furnituremod.FurnitureMod;
 import thexnator.furnituremod.tileentity.TileEntityOven;
 

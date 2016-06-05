@@ -31,7 +31,6 @@ import com.mojang.realmsclient.gui.ChatFormatting;
 import net.minecraft.block.Block;
 import net.minecraft.block.properties.PropertyInteger;
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.gui.FontRenderer;
 import net.minecraft.client.gui.ScaledResolution;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.item.EntityItem;

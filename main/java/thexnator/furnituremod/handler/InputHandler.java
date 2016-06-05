@@ -4,15 +4,10 @@ import java.util.Random;
 
 import org.lwjgl.input.Keyboard;
 
-import com.mojang.realmsclient.dto.PlayerInfo;
-
-import ibxm.Player;
 import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.settings.KeyBinding;
 import net.minecraft.entity.EntityLivingBase;
-import net.minecraft.entity.player.PlayerCapabilities;
-import net.minecraft.server.management.PlayerManager;
 import net.minecraft.util.BlockPos;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.world.World;

@@ -1,16 +1,31 @@
 package thexnator.furnituremod.util.renderers;
 
 
-import static org.lwjgl.opengl.GL11.*;
+import static org.lwjgl.opengl.GL11.GL_ALPHA_TEST;
+import static org.lwjgl.opengl.GL11.GL_BLEND;
+import static org.lwjgl.opengl.GL11.GL_CULL_FACE;
+import static org.lwjgl.opengl.GL11.GL_DEPTH_TEST;
+import static org.lwjgl.opengl.GL11.GL_GREATER;
+import static org.lwjgl.opengl.GL11.GL_LIGHTING;
+import static org.lwjgl.opengl.GL11.GL_ONE;
+import static org.lwjgl.opengl.GL11.GL_ONE_MINUS_DST_COLOR;
+import static org.lwjgl.opengl.GL11.GL_ONE_MINUS_SRC_ALPHA;
+import static org.lwjgl.opengl.GL11.GL_SRC_ALPHA;
+import static org.lwjgl.opengl.GL11.GL_TEXTURE_2D;
+import static org.lwjgl.opengl.GL11.GL_ZERO;
+import static org.lwjgl.opengl.GL11.glAlphaFunc;
+import static org.lwjgl.opengl.GL11.glBlendFunc;
+import static org.lwjgl.opengl.GL11.glDisable;
+import static org.lwjgl.opengl.GL11.glEnable;
 
 import org.lwjgl.util.vector.Vector3f;
 
+import net.minecraft.client.renderer.GlStateManager;
+import net.minecraft.util.BlockPos;
 import thexnator.furnituremod.util.utilclasses.DataStalker;
 import thexnator.furnituremod.util.utilclasses.PrintUtil;
 import thexnator.furnituremod.util.utilobjects.ColorF;
 import thexnator.furnituremod.util.utilobjects.vectors.Vec3M;
-import net.minecraft.client.renderer.GlStateManager;
-import net.minecraft.util.BlockPos;
 
 
 /**

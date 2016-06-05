@@ -4,16 +4,12 @@ import java.util.Map;
 
 import com.google.common.collect.MapMaker;
 
-import net.minecraft.client.Minecraft;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 import thexnator.furnituremod.FurnitureMod;
-import thexnator.furnituremod.GliderPlayerRenderHandler;
 import thexnator.furnituremod.entity.EntityHangGlider;
-import thexnator.furnituremod.renderer.PlayerBodyRenderEvent;
-import thexnator.furnituremod.renderer.entity.EntityHangGliderRenderer;
 
 public class ItemHangGlider extends Item {
 

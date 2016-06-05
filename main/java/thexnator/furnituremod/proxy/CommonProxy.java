@@ -5,9 +5,7 @@ import net.minecraft.network.INetHandler;
 import net.minecraft.network.NetHandlerPlayServer;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.world.World;
-import net.minecraftforge.common.MinecraftForge;
-import thexnator.furnituremod.events.client.RenderEvents;
-import thexnator.furnituremod.init.FurnitureEvents;
+import thexnator.furnituremod.IntroBook;
 
 public class CommonProxy implements ProxyInterface
 {
@@ -52,13 +50,11 @@ public class CommonProxy implements ProxyInterface
 	@Override
 	public void preInit()
 	{
-		
+		IntroBook.registerTests(1);
 	}
 	
 	public void init()
-	{
-		//FurnitureEvents.init();
-		
+	{		
 		System.out.println("CommonProxy init");;
 	}
 }

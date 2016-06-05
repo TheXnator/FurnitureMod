@@ -6,20 +6,11 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.entity.Render;
 import net.minecraft.client.renderer.entity.RenderManager;
-import net.minecraft.entity.Entity;
-import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.ResourceLocation;
-import net.minecraft.world.World;
-import net.minecraftforge.client.event.RenderHandEvent;
-import net.minecraftforge.client.event.RenderPlayerEvent;
-import net.minecraftforge.fml.common.eventhandler.EventPriority;
-import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import thexnator.furnituremod.FurnitureMod;
 import thexnator.furnituremod.entity.EntityHangGlider;
 import thexnator.furnituremod.renderer.DisplayListWrapper;
-import thexnator.furnituremod.util.renderers.GL11U;
-import thexnator.furnituremod.util.utilclasses.PrintUtil;
 
 public class EntityHangGliderRenderer extends Render<EntityHangGlider> {
 
@@ -79,20 +70,20 @@ public class EntityHangGliderRenderer extends Render<EntityHangGlider> {
 		if (isLocalPlayer) {
 			if (isDeployed) {
 				// move up and closer to back
-				GL11.glTranslated(0, +0.2, +0.3);
+				GL11.glTranslated(0, +1.2, +0.3);
 			} else {
 				if (isFpp) {
 					// move over head when flying in FPP
-					GL11.glTranslated(0, +0.2, 0);
+					GL11.glTranslated(0, +2.1, 0);
 				} else {
 					// move closer to back and forward when flying in TDD
-					GL11.glTranslated(0, -0.8, -1.0);
+					GL11.glTranslated(0, +0.4, -1.0);
 				}
 			}
 		} else {
 			if (isDeployed) {
 				// move up little bit (other player center is lower)
-				GL11.glTranslated(0, +0.8, +0.3);
+				GL11.glTranslated(0, +0.8, +0.9);
 			} else {
 				// move closer to back and forward when flying
 				GL11.glTranslated(0, -0.5, -1.0);

@@ -2,11 +2,14 @@ package thexnator.furnituremod.utils;
 
 import java.util.UUID;
 
-import net.minecraft.nbt.NBTTagCompound;
-import net.minecraft.util.*;
-import net.minecraftforge.common.util.Constants;
-
 import com.google.common.base.Objects;
+
+import net.minecraft.nbt.NBTTagCompound;
+import net.minecraft.util.BlockPos;
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.util.Vec3;
+import net.minecraft.util.Vec3i;
+import net.minecraftforge.common.util.Constants;
 
 public class NbtUtils {
 

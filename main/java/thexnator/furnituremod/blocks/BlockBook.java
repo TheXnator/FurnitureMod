@@ -18,11 +18,13 @@ import net.minecraft.world.World;
 import thexnator.furnituremod.entity.EntitySittableBlock;
 import thexnator.furnituremod.util.CollisionHelper;
 
-public class BlockBook extends BlockFurniture {
+public class BlockBook extends BlockFurniture
+{
 	
 	public static final PropertyDirection FACING = PropertyDirection.create("facing", EnumFacing.Plane.HORIZONTAL);
 
-	public BlockBook(Material materialIn) {
+	public BlockBook(Material materialIn) 
+	{
 		super(materialIn);
 		setHardness(1.0F);
 		setStepSound(Block.soundTypeWood);

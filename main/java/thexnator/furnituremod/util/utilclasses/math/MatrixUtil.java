@@ -4,9 +4,8 @@ import org.lwjgl.util.vector.Matrix4f;
 import org.lwjgl.util.vector.Vector3f;
 import org.lwjgl.util.vector.Vector4f;
 
-import thexnator.furnituremod.util.utilobjects.vectors.Vec3M;
-
 import net.minecraft.util.Vec3;
+import thexnator.furnituremod.util.utilobjects.vectors.Vec3M;
 
 public final class MatrixUtil{
 	

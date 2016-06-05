@@ -3,12 +3,10 @@ package thexnator.furnituremod.network.message;
 import java.util.Random;
 
 import io.netty.buffer.ByteBuf;
-
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler;
 import net.minecraftforge.fml.common.network.simpleimpl.MessageContext;
-
 import thexnator.furnituremod.entity.EntitySittableBlock;
 
 //Server Packet

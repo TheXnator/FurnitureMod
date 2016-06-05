@@ -5,30 +5,17 @@ import java.util.Map;
 import com.google.common.collect.MapMaker;
 
 import io.netty.buffer.ByteBuf;
-import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.EntityPlayerSP;
-import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.entity.Entity;
-import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.world.World;
-import net.minecraftforge.client.event.RenderHandEvent;
-import net.minecraftforge.client.event.RenderPlayerEvent;
-import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.fml.common.eventhandler.EventPriority;
-import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.registry.IEntityAdditionalSpawnData;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import thexnator.furnituremod.Log;
-import thexnator.furnituremod.events.client.RenderEvents;
 import thexnator.furnituremod.items.ItemHangGlider;
-import thexnator.furnituremod.util.renderers.GL11U;
-import thexnator.furnituremod.util.renderers.OpenGLM;
-import thexnator.furnituremod.util.utilclasses.PrintUtil;
-import thexnator.furnituremod.util.utilclasses.UtilM;
 
 public class EntityHangGlider extends Entity implements IEntityAdditionalSpawnData
 {
@@ -176,7 +163,8 @@ public class EntityHangGlider extends Entity implements IEntityAdditionalSpawnDa
 		this.prevRotationPitch = player.prevRotationPitch;
 		this.rotationPitch = player.rotationPitch;
 
-		if (!localPlayer) {
+		if (!localPlayer)
+		{
 			this.posY += 1.2;
 			this.prevPosY += 1.2;
 			this.lastTickPosY += 1.2;

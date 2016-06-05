@@ -1,10 +1,9 @@
 package thexnator.furnituremod.util.utilobjects;
 
-import thexnator.furnituremod.util.utilclasses.RandUtil;
-import thexnator.furnituremod.util.utilclasses.UtilM.U;
-
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
+import thexnator.furnituremod.util.utilclasses.RandUtil;
+import thexnator.furnituremod.util.utilclasses.UtilM.U;
 
 public class EntityPosAndBB{
 	public double[] BB;

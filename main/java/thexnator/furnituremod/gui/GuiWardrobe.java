@@ -11,7 +11,6 @@ import net.minecraft.client.renderer.vertex.VertexFormat;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.util.ResourceLocation;
 import thexnator.furnituremod.gui.containers.ContainerWardrobe;
-import thexnator.furnituremod.network.PacketHandler;
 import thexnator.furnituremod.tileentity.TileEntityWardrobe;
 
 public class GuiWardrobe extends GuiContainer

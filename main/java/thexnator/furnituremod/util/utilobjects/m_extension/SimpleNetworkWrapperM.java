@@ -1,11 +1,10 @@
 package thexnator.furnituremod.util.utilobjects.m_extension;
 
-import thexnator.furnituremod.util.utilclasses.PrintUtil;
-
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraftforge.fml.common.network.NetworkRegistry.TargetPoint;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
 import net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper;
+import thexnator.furnituremod.util.utilclasses.PrintUtil;
 
 public class SimpleNetworkWrapperM extends SimpleNetworkWrapper{
 	

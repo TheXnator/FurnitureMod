@@ -6,7 +6,6 @@ import net.minecraftforge.fml.common.network.FMLEmbeddedChannel;
 import net.minecraftforge.fml.common.network.NetworkRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import thexnator.furnituremod.network.Dispatcher;
-import thexnator.furnituremod.network.Dispatcher.Senders;
 import thexnator.furnituremod.network.ExtendedOutboundHandler;
 
 public class NetworkEventDispatcher extends Dispatcher {

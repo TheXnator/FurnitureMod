@@ -1,10 +1,10 @@
 package thexnator.furnituremod.geometry;
 
+import com.google.common.base.Preconditions;
+
 import gnu.trove.map.TIntObjectMap;
 import gnu.trove.map.hash.TIntObjectHashMap;
 import net.minecraft.util.EnumFacing;
-
-import com.google.common.base.Preconditions;
 
 public enum Orientation {
 	XN_YN(HalfAxis.NEG_X, HalfAxis.NEG_Y),

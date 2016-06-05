@@ -9,7 +9,6 @@ import net.minecraft.network.play.server.S35PacketUpdateTileEntity;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
-import thexnator.furnituremod.util.NBTHelper;
 
 public class TileEntityFishTank extends TileEntity implements ITickable
 {

@@ -1,6 +1,6 @@
 package thexnator.furnituremod.util.utilobjects.vectors;
 
-import static thexnator.furnituremod.util.utilclasses.UtilM.*;
+import static thexnator.furnituremod.util.utilclasses.UtilM.instanceOf;
 
 import java.util.Objects;
 
