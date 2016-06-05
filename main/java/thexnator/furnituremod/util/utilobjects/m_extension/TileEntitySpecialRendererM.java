@@ -3,6 +3,7 @@ package thexnator.furnituremod.util.utilobjects.m_extension;
 import net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer;
 import net.minecraft.tileentity.TileEntity;
 
+@SuppressWarnings("rawtypes")
 public abstract class TileEntitySpecialRendererM extends TileEntitySpecialRenderer{
 	public static final float p=1F/16F;
 	@Override

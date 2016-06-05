@@ -336,9 +336,11 @@ public class UtilM{
 	public static boolean instanceOf(Object tester, Object instance){
 		return instanceOf(tester.getClass(), instance.getClass());
 	}
+	@SuppressWarnings("rawtypes")
 	public static boolean instanceOf(Object tester, Class instance){
 		return instanceOf(tester.getClass(), instance);
 	}
+	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public static boolean instanceOf(Class tester, Class instance){
 		try{
 			tester.asSubclass(instance);
@@ -368,6 +370,7 @@ public class UtilM{
 		if(hasMetaState(world, pos))world.setBlockState(pos, world.getBlockState(pos).withProperty(META, meta), 3);
 	}
 	
+	@SuppressWarnings("rawtypes")
 	public static boolean hasMetaState(World world, BlockPos pos){
 		ImmutableMap i=world.getBlockState(pos).getProperties();
 		return i.keySet().contains(META);

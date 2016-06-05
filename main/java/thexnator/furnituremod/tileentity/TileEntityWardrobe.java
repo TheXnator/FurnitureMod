@@ -117,6 +117,7 @@ public class TileEntityWardrobe extends TileEntityLockable implements ISidedInve
 		return false;
 	}
 
+	@SuppressWarnings("unused")
 	private Random rand = new Random();
 	private int timer = 0;
 
@@ -326,6 +327,7 @@ public class TileEntityWardrobe extends TileEntityLockable implements ISidedInve
 		this.readFromNBT(tagCom);
 	}
 
+	@SuppressWarnings("rawtypes")
 	@Override
 	public Packet getDescriptionPacket()
 	{

@@ -25,6 +25,7 @@ public class DataStalker{
 		}else PrintUtil.println("No variables has been captured. Yet...");
 		PrintUtil.println("--------------------------");
 	}
+	@SuppressWarnings("rawtypes")
 	public static void callAShakedowForAClass(Class clazz){
 		PrintUtil.println("Warning! DataStalker has called a shakedow for a class!");
 		colecterMode=true;
@@ -34,6 +35,7 @@ public class DataStalker{
 		PrintUtil.println("Info: DataStalker has finished a shakedow for a class!");
 	}
 	
+	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public static<T> T getVariable(Class clazz,String name,Object objectForExtractingData){
 		Field field=getVariable(clazz, name);
 		if(UtilM.isNull(field==null,objectForExtractingData))return null;
@@ -42,12 +44,14 @@ public class DataStalker{
 		}catch(Exception e){e.printStackTrace();}
 		return result;
 	}
+	@SuppressWarnings("rawtypes")
 	public static Field getVariable(Class clazz,String name){
 		for(Field a:huntedVariables)if(a.getName().equals(name))return a;
 		Field hunted=huntVariable(clazz, name);
 		if(hunted!=null)PrintUtil.println("Info: Variable with name: "+hunted.getName()+" in class: "+clazz.getName()+" has been captured.");
 		return hunted;
 	}
+	@SuppressWarnings("rawtypes")
 	public static Method getFunction(Class clazz,String name){
 		for(Method a:huntedFunctions)if(a.getName().equals(name))return a;
 		Method hunted=huntFunction(clazz, name);
@@ -55,6 +59,7 @@ public class DataStalker{
 		return hunted;
 	}
 	
+	@SuppressWarnings("rawtypes")
 	private static Field huntVariable(Class clazz,String name){
 		if(clazz==null||name==null)return null;
 		if(name.isEmpty())return null;
@@ -75,6 +80,7 @@ public class DataStalker{
 		}
 		return huntedVariable;
 	}
+	@SuppressWarnings("rawtypes")
 	private static Method huntFunction(Class clazz,String name){
 		if(clazz==null||name==null)return null;
 		if(name.isEmpty())return null;

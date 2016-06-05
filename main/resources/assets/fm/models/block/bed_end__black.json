@@ -1,6 +1,7 @@
 {
 "parent": "fm:block/bed_end",
 "textures": {
+"particle": "blocks/planks_oak",
 "3": "blocks/wool_colored_black"
 }
 }

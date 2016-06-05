@@ -13,6 +13,7 @@ import thexnator.furnituremod.entity.EntitySittableBlock;
 public class MessageClickSound implements IMessage, IMessageHandler<MessageClickSound, IMessage>
 {
 
+	@SuppressWarnings("unused")
 	private Random rand = new Random();
 	private double x, y, z;
 

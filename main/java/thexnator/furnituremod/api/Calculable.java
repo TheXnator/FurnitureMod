@@ -1,5 +1,6 @@
 package thexnator.furnituremod.api;
 
+@SuppressWarnings("rawtypes")
 public interface Calculable<T extends Calculable>{
 	public T add(T var);
 	public T sub(T var);

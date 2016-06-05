@@ -60,6 +60,7 @@ public class TileEntityFishTank extends TileEntity implements ITickable
 		this.readFromNBT(tagCom);
 	}
 
+	@SuppressWarnings("rawtypes")
 	@Override
 	public Packet getDescriptionPacket()
 	{

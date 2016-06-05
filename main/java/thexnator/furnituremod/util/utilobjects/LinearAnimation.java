@@ -6,10 +6,12 @@ import java.util.List;
 
 import thexnator.furnituremod.api.Calculable;
 
+@SuppressWarnings("rawtypes")
 public class LinearAnimation<T extends Calculable>{
 	
 	private DoubleObject<T[], Float>[] animationData;
 	
+	@SuppressWarnings("unchecked")
 	public LinearAnimation(DoubleObject<T[], Float>...data){
 		List<DoubleObject<T[], Float>> dataSorted=new ArrayList<DoubleObject<T[], Float>>();
 		
@@ -28,6 +30,7 @@ public class LinearAnimation<T extends Calculable>{
 		animationData=dataSorted.toArray(new DoubleObject[0]);
 	}
 	
+	@SuppressWarnings("unchecked")
 	public T[] get(int partId,float animationPos){
 		DoubleObject<T[], Float> before=animationData[partId],after=animationData[partId+1];
 		T[] result=(T[])Array.newInstance(before.obj1.getClass().getComponentType(), before.obj1.length);

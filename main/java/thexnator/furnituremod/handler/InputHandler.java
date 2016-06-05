@@ -22,10 +22,12 @@ import thexnator.furnituremod.network.message.MessageClickSound;
 
 public class InputHandler
 {
+	@SuppressWarnings("unused")
 	private static final IProperty<EnumFacing> DIRECTION = BlockOfficeChair.DIRECTION;
 	public static KeyBinding key_clicksound;
 	public static boolean keyclickPressed = false;
 	public static boolean keyHasBeenPressed = false;
+	@SuppressWarnings("unused")
 	private Random rand = new Random();
 
 	public InputHandler()
@@ -56,6 +58,7 @@ public class InputHandler
 		}
 	}
 
+	@SuppressWarnings("unused")
 	private IBlockState onBlockSit(World world, BlockPos pos, EnumFacing facing, float hitX, float hitY, float hitZ, int meta, EntityLivingBase placer) {
 		return null;
 	}

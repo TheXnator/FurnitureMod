@@ -7,6 +7,7 @@ import net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer;
 import net.minecraft.tileentity.TileEntity;
 import thexnator.furnituremod.tileentity.TileEntityMug;
 
+@SuppressWarnings("rawtypes")
 public class MugRenderer extends TileEntitySpecialRenderer
 {
 
@@ -16,6 +17,7 @@ public class MugRenderer extends TileEntitySpecialRenderer
 		TileEntityMug tileEntityCup = (TileEntityMug) tileEntity;
 		if (tileEntityCup.getDrink() != null)
 		{
+			@SuppressWarnings("unused")
 			Tessellator tessellator = Tessellator.getInstance();
 			GL11.glPushMatrix();
 			{

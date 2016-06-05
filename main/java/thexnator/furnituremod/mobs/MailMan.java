@@ -50,9 +50,11 @@ public class MailMan extends EntityCreature
 	public static int mobid = 0;
 	public Object instance;
 
-    public void load(FMLInitializationEvent event)
+    @SuppressWarnings({ "deprecation", "rawtypes" })
+	public void load(FMLInitializationEvent event)
     {
-		RenderingRegistry.registerEntityRenderingHandler(MailMan.EntitymailMan.class, new RenderBiped(Minecraft.getMinecraft().getRenderManager(), new ModelBiped(), 0, 0){protected ResourceLocation getEntityTexture(Entity par1Entity){return new ResourceLocation("fm", "textures/MailMan.png");}});
+		RenderingRegistry.registerEntityRenderingHandler(MailMan.EntitymailMan.class, new RenderBiped(Minecraft.getMinecraft().getRenderManager(), new ModelBiped(), 0, 0){@SuppressWarnings("unused")
+		protected ResourceLocation getEntityTexture(Entity par1Entity){return new ResourceLocation("fm", "textures/MailMan.png");}});
 	}
 
     public void generateNether(World world, Random random, int chunkX, int chunkZ)
@@ -76,6 +78,7 @@ public class MailMan extends EntityCreature
 		
 	}
 	
+	@SuppressWarnings("deprecation")
 	public void preInit(FMLPreInitializationEvent event)
 	{
 		int entityID = EntityRegistry.findGlobalUniqueEntityId();
@@ -151,6 +154,7 @@ public class MailMan extends EntityCreature
 	        return "game.neutral.die";
 	    }
 
+		@SuppressWarnings("unused")
 		@Override
 	    public void onStruckByLightning(EntityLightningBolt entityLightningBolt)
 		{
@@ -161,6 +165,7 @@ public class MailMan extends EntityCreature
 			Entity entity = this;
 		}
 
+		@SuppressWarnings("unused")
 		@Override
 		public void fall(float l, float d)
 		{
@@ -172,6 +177,7 @@ public class MailMan extends EntityCreature
 			Entity entity = this;
 		}
 
+		@SuppressWarnings("unused")
 		@Override
 		public void onDeath(DamageSource source)
 		{
@@ -182,6 +188,7 @@ public class MailMan extends EntityCreature
 			Entity entity = this;			
 		}
 
+		@SuppressWarnings("unused")
 		@Override
 		public boolean interact(EntityPlayer entity)
 		{

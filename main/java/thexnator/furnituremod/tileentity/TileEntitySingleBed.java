@@ -37,6 +37,7 @@ public class TileEntitySingleBed extends TileEntity
 		super.writeToNBT(par1NBTTagCompound);
 	}
 
+	@SuppressWarnings("unused")
 	@Override
 	public void onDataPacket(NetworkManager net, S35PacketUpdateTileEntity pkt)
 	{
@@ -44,6 +45,7 @@ public class TileEntitySingleBed extends TileEntity
 		//this.readFromNBT(tagCom);
 	}
 
+	@SuppressWarnings("rawtypes")
 	@Override
 	public Packet getDescriptionPacket()
 	{

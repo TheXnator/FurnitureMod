@@ -155,6 +155,7 @@ public class TileEntityOven extends TileEntityLockable implements ISidedInventor
 		this.readFromNBT(tagCom);
 	}
 
+	@SuppressWarnings("rawtypes")
 	@Override
 	public Packet getDescriptionPacket()
 	{
@@ -291,6 +292,7 @@ public class TileEntityOven extends TileEntityLockable implements ISidedInventor
 		return -1;
 	}
 
+	@SuppressWarnings("deprecation")
 	public void cookItems()
 	{
 		int itemNum = canCook();

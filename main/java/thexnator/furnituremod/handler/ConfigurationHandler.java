@@ -43,6 +43,7 @@ public class ConfigurationHandler {
 		config.save();
 	}
 
+	@SuppressWarnings("unused")
 	private static void updateEnabledRecipes()
 	{
 		oven_1 = config.getBoolean("oven-1", CATEGORY_RECIPE_SETTINGS, oven_1, "Beef -> Cooked Beef");

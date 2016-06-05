@@ -150,6 +150,7 @@ public class Matrix3d {
 		return m02 * x + m12 * y + m22 * z;
 	}
 
+	@SuppressWarnings("unused")
 	public Vec3 transform(Vec3 vec) {
 		final double tx = transformX(vec.xCoord, vec.yCoord, vec.zCoord);
 		final double ty = transformY(vec.xCoord, vec.yCoord, vec.zCoord);

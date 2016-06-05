@@ -14,6 +14,7 @@ public class ItemRendererHangGlider {
 		EntityLivingBase par1EntityLiving = (EntityLivingBase)data[1];
 		if (EntityHangGlider.isEntityHoldingGlider(par1EntityLiving)) return;
 
+		@SuppressWarnings("unused")
 		Tessellator tessellator = Tessellator.getInstance();
 		GL11.glEnable(GL12.GL_RESCALE_NORMAL);
 		GL11.glTranslatef(-0.0F, -0.3F, 0.0F);

@@ -20,6 +20,7 @@ import net.minecraftforge.fml.common.network.internal.FMLProxyPacket;
 import net.minecraftforge.fml.relauncher.Side;
 
 public class ExtendedOutboundHandler extends ChannelOutboundHandlerAdapter {
+	@SuppressWarnings("deprecation")
 	public static final AttributeKey<IPacketTargetSelector> MESSAGETARGET = new AttributeKey<IPacketTargetSelector>("om:outboundTarget");
 
 	@Override
