@@ -7,6 +7,7 @@ import net.minecraft.item.ItemStack;
 
 public class SlotOven extends Slot
 {
+	@SuppressWarnings("unused")
 	private int field_75228_b;
 
 	public SlotOven(IInventory par2IInventory, int par3, int par4, int par5)

@@ -41,6 +41,7 @@ public abstract class BlockSingleBed extends BlockFurniture implements ITileEnti
     public static final PropertyBool OCCUPIED = PropertyBool.create("occupied");
 	public static final PropertyInteger COLOUR = PropertyInteger.create("colour", 0, 15);
 	
+	@SuppressWarnings("unused")
 	public BlockSingleBed(Material material)
 	{
 		super(material);
@@ -65,6 +66,7 @@ public abstract class BlockSingleBed extends BlockFurniture implements ITileEnti
 		setBlockBounds(0.0F, 0.0F, 0.0F, 1.0F, 0.55F, 1.0F);
 	}
 
+	@SuppressWarnings({ "rawtypes", "unchecked" })
 	@Override
 	public void addCollisionBoxesToList(World world, BlockPos pos, IBlockState state, AxisAlignedBB mask, List list, Entity collidingEntity)
 	{

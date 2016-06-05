@@ -14,7 +14,6 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import thexnator.furnituremod.ClientTickHandler;
 import thexnator.furnituremod.GliderPlayerRenderHandler;
-import thexnator.furnituremod.IntroBook;
 import thexnator.furnituremod.entity.EntityHangGlider;
 import thexnator.furnituremod.init.FurnitureBlocks;
 import thexnator.furnituremod.init.FurnitureItems;
@@ -37,6 +36,7 @@ public class ClientProxy extends CommonProxy
 	public static Entity renderEntity = null;
 	public static Entity backupEntity = null;
 
+	@SuppressWarnings({ "unchecked", "deprecation" })
 	@Override
 	public void registerRenders()
 	{
@@ -76,7 +76,7 @@ public class ClientProxy extends CommonProxy
 		MinecraftForge.EVENT_BUS.register(new PlayerBodyRenderEvent(player, 0));
 		MinecraftForge.EVENT_BUS.register(new GliderPlayerRenderHandler());
 		MinecraftForge.EVENT_BUS.register(this);
-		IntroBook.registerTests(1);
+		//IntroBook.registerTests(1);
 	}
 	
 	@Override

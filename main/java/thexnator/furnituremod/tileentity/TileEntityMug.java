@@ -72,6 +72,7 @@ public class TileEntityMug extends TileEntity implements ISimpleInventory {
 		this.readFromNBT(tagCom);
 	}
 
+	@SuppressWarnings("rawtypes")
 	@Override
 	public Packet getDescriptionPacket()
 	{

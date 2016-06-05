@@ -1,38 +1,8 @@
 package thexnator.furnituremod;
 
-import java.awt.Color;
-import java.util.ArrayList;
-
-import amerifrance.guideapi.ModInformation;
-import amerifrance.guideapi.api.GuideRegistry;
-import amerifrance.guideapi.api.abstraction.CategoryAbstract;
-import amerifrance.guideapi.api.abstraction.EntryAbstract;
-import amerifrance.guideapi.api.abstraction.IPage;
-import amerifrance.guideapi.api.base.Book;
-import amerifrance.guideapi.api.base.EntryBase;
-import amerifrance.guideapi.api.util.PageHelper;
-import amerifrance.guideapi.category.CategoryItemStack;
-import amerifrance.guideapi.category.CategoryResourceLocation;
-import amerifrance.guideapi.entry.EntryItemStack;
-import amerifrance.guideapi.entry.EntryResourceLocation;
-import amerifrance.guideapi.page.PageFurnaceRecipe;
-import amerifrance.guideapi.page.PageIRecipe;
-import amerifrance.guideapi.page.PageImage;
-import amerifrance.guideapi.page.PageSound;
-import amerifrance.guideapi.page.PageText;
-import net.minecraft.init.Blocks;
-import net.minecraft.init.Items;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.crafting.ShapelessRecipes;
-import net.minecraft.util.ResourceLocation;
-import net.minecraftforge.fml.common.registry.GameRegistry;
-import net.minecraftforge.oredict.ShapedOreRecipe;
-import net.minecraftforge.oredict.ShapelessOreRecipe;
-import thexnator.furnituremod.init.FurnitureBlocks;
-
 public class IntroBook
 {
-
+/*
     public static void registerTests(int amountOfBooks)
     {
         for (int i = 0; i < amountOfBooks; i++)
@@ -125,7 +95,7 @@ public class IntroBook
         book.setSpawnWithBook(false);
 
         GuideRegistry.registerBook(book, true);
-    }
+    }*/
 }
 
 

@@ -28,7 +28,9 @@ public class HeightMapRenderer {
 	}
 
 	private static class PlaneData {
+		@SuppressWarnings("unused")
 		public PlaneOrientation orientation;
+		@SuppressWarnings("unused")
 		public int param;
 		public DynamicTextureAtlas.AtlasCell texture;
 	}

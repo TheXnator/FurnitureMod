@@ -5,7 +5,6 @@ import net.minecraft.network.INetHandler;
 import net.minecraft.network.NetHandlerPlayServer;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.world.World;
-import thexnator.furnituremod.IntroBook;
 
 public class CommonProxy implements ProxyInterface
 {
@@ -50,7 +49,7 @@ public class CommonProxy implements ProxyInterface
 	@Override
 	public void preInit()
 	{
-		IntroBook.registerTests(1);
+		//IntroBook.registerTests(1);
 	}
 	
 	public void init()

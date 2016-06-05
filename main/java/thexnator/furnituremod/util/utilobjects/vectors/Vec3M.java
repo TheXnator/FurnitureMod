@@ -24,6 +24,7 @@ import thexnator.furnituremod.util.utilclasses.math.MatrixUtil;
 /**
  *	Copy of mc Vec3M because mc didn't hear of a word called convenient 
  */
+@SuppressWarnings("serial")
 public class Vec3M extends Vector implements Serializable, ReadableVector, ReadableVector3f, WritableVector3f,Calculable<Vec3M>{
 	public double x,y,z;
 

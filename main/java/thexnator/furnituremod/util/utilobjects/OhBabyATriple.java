@@ -10,6 +10,7 @@ public class OhBabyATriple <Obj1,Obj2,Obj3>{
 		this.obj2=obj2;
 		this.obj3=obj3;
 	}
+	@SuppressWarnings("rawtypes")
 	@Override
 	public boolean equals(Object obj){
 		if(!(obj instanceof OhBabyATriple))return false;

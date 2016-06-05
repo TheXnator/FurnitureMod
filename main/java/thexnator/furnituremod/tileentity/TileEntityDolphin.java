@@ -41,6 +41,7 @@ public class TileEntityDolphin extends TileEntity
 		this.readFromNBT(tagCom);
 	}
 
+	@SuppressWarnings("rawtypes")
 	@Override
 	public Packet getDescriptionPacket()
 	{

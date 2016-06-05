@@ -65,8 +65,9 @@ public class BlockHedge extends BlockFurniture {
 		setBlockBounds(0.0F, 0.0F, 0.0F, 1.0F, 1.1F, 1.0F);
 	}
 
+	@SuppressWarnings("unchecked")
 	@Override
-	public void addCollisionBoxesToList(World world, BlockPos pos, IBlockState state, AxisAlignedBB mask, List list, Entity collidingEntity)
+	public void addCollisionBoxesToList(World world, BlockPos pos, IBlockState state, AxisAlignedBB mask, @SuppressWarnings("rawtypes") List list, Entity collidingEntity)
 	{
 		if (!(collidingEntity instanceof EntitySittableBlock))
 		{

@@ -17,6 +17,7 @@ public class GuiWardrobe extends GuiContainer
 {
 	private static final ResourceLocation gui = new ResourceLocation("fm:textures/gui/wardrobe.png");
 	private TileEntityWardrobe tileEntityWardrobe;
+	@SuppressWarnings("unused")
 	private VertexFormat format = new VertexFormat();
 
 	private GuiButton button_start;

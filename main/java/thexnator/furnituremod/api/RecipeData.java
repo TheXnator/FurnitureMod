@@ -9,6 +9,7 @@ public class RecipeData
 {
 
 	/** ItemStack variables */
+	@SuppressWarnings("unused")
 	private ItemStack input, output, currency;
 
 	/**
@@ -67,11 +68,13 @@ public class RecipeData
 		String result = "";
 		if (input != null)
 		{
+			@SuppressWarnings("deprecation")
 			String name = GameRegistry.findUniqueIdentifierFor(input.getItem()).toString();
 			result += "input-item=" + name + ",input-amount=" + input.stackSize + ",input-metadata=" + input.getItemDamage() + ",";
 		}
 		if (output != null)
 		{
+			@SuppressWarnings("deprecation")
 			String name = GameRegistry.findUniqueIdentifierFor(output.getItem()).toString();
 			result += "output-item=" + name + ",output-amount=" + output.stackSize + ",output-metadata=" + output.getItemDamage() + ",";
 		}

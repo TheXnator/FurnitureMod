@@ -59,6 +59,7 @@ public class MethodIdRegistry implements IDataVisitor<String, Integer> {
 //		}
 //	}
 
+	@SuppressWarnings("unused")
 	private static Class<?>[] convertTypesToClasses(Type[] argTypes, ClassLoader loader) throws ClassNotFoundException {
 		Class<?>[] argCls = new Class<?>[argTypes.length];
 		for (int i = 0; i < argCls.length; i++)
@@ -66,6 +67,7 @@ public class MethodIdRegistry implements IDataVisitor<String, Integer> {
 		return argCls;
 	}
 
+	@SuppressWarnings("unused")
 	@Override
 	public void entry(String methodDesc, Integer id) {
 		final Method method;

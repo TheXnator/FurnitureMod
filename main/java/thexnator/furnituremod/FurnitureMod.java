@@ -60,6 +60,7 @@ public class FurnitureMod implements IWorldGenerator
 	@SidedProxy(modId=Reference.MODID, clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
 	public static CommonProxy proxy;
 	
+	@SuppressWarnings("unused")
 	private final ApiSetup apiSetup = new ApiSetup();
 	
 	public static final FurnitureTab tabFurniture = new FurnitureTab("tabFurniture");
@@ -82,6 +83,7 @@ public class FurnitureMod implements IWorldGenerator
 		if(world.provider.getDimensionId()==0)MailMan.generateSurface(world, random, chunkX, chunkZ);
 	}
 	
+	@SuppressWarnings("deprecation")
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event)
 	{
@@ -89,7 +91,7 @@ public class FurnitureMod implements IWorldGenerator
 		.startRegistration()
 		.register(PlayerActionEvent.class);
 		
-		MailMan.instance = this.instance;
+		MailMan.instance = instance;
 		
 		MailMan.preInit(event);
 		
@@ -171,6 +173,7 @@ public class FurnitureMod implements IWorldGenerator
 		}
 	}
 	
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	public void register(String method, String modid)
 	{
 		String[] data = method.split("\\.");

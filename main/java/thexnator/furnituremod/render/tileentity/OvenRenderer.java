@@ -10,10 +10,12 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.tileentity.TileEntity;
 import thexnator.furnituremod.tileentity.TileEntityOven;
 
+@SuppressWarnings("rawtypes")
 public class OvenRenderer extends TileEntitySpecialRenderer
 {
 	private EntityItem ovenItem = new EntityItem(Minecraft.getMinecraft().theWorld, 0D, 0D, 0D);
 
+	@SuppressWarnings("unused")
 	private int counter = 0;
 	
 	@Override
